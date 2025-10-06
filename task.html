@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Blog Grid</title>
+  <style>
+    body {
+    
+      background-color: #62b5c9;
+      margin: 0;
+      padding: 50px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1110px;
+      margin:auto;
+    }
+
+    .card {
+      text-align: center;
+      background: #394334;
+    }
+
+    /* .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    } */
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      font-size: 1.1rem;
+      margin: 15px 10px 10px;
+      color: #c79a11;
+    }
+
+    .card p {
+      
+      color: #7ca8c6;
+      padding: 0 10px 20px;
+      
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Food Blog Grid</h2>
+
+  <div class="container">
+    <div class="card">
+      <img src="./images/sandwich.jpg" alt="">
+      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum ipsum.</p>
+    </div>
+
+    <div class="card">
+      <img src="./images/steak.jpg" alt="Steak">
+      <h3>Let Me Tell You About This Steak</h3>
+      <p>Once again, some random text to lorem lorem lorem ipsum text praesent tincidunt ipsum.</p>
+    </div>
+
+    <div class="card">
+      <img src="./images/cherries.jpg" alt="Cherries">
+      <h3>Cherries, Interrupted</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum. What else?</p>
+    </div>
+
+    <div class="card">
+      <img src="./images/wine.jpg" alt="Wine Pasta">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum ipsum.</p>
+    </div>
+
+    <div class="card">
+      <img src="./images/popsicle.jpg" alt="Popsicle">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum ipsum.</p>
+    </div>
+
+    <div class="card">
+      <img src="./images/salmon.jpg" alt="Salmon">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem ipsum text praesent tincidunt ipsum.</p>
+    </div>
+
+    <div class="card">
+      <img src="./images/sandwich (1).jpg" alt="Classic Sandwich">
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum ipsum.</p>
+    </div>
+
+    <div class="card">
+      <img src="./images/croissant.jpg" alt="Le French">
+      <h3>Le French</h3>
+      <p>Lorem ipsum lorem lorem text praesent tincidunt ipsum ipsum.</p>
+    </div>
+  </div>
+
+</body>
+</html>
